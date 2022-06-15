@@ -65,7 +65,7 @@ extern "C" {
       @Remarks
         Any additional remarks
      */
-#define EXAMPLE_CONSTANT 0
+
 
 
     // *****************************************************************************
@@ -164,8 +164,8 @@ extern "C" {
             return 3;
         }
      */
-    int ExampleFunction(int param1, int param2);
-
+    
+    void handleOutput(int gesture_index);
 
     /* Provide C++ Compatibility */
 #ifdef __cplusplus

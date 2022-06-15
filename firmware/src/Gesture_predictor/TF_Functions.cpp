@@ -1,4 +1,5 @@
 #include "definitions.h"
+#include "Output_handler.hpp"
 #include "Gesture_predictor/TF_Functions.hpp"
 #include "Gesture_predictor/gesture_model.h"
 #include "Gesture_predictor/Gesture_predictor.hpp"
@@ -23,8 +24,6 @@ uint8_t tensor_arena[kTensorArenaSize];
 } 
 
 bool should_Clear_Buffer = false;
-uint8_t lastGesture = 3;
-
 
 void TF_Initialize(void){
     
@@ -123,37 +122,6 @@ void TF_PreformInference(void){
   
   should_Clear_Buffer = gesture_index < 3;
 
-  // 0: wing("W"), 1: ring("O"), 2: slope("angle"), 3: unknown
-  switch(gesture_index){
-      case 0:
-          printf("WING WING WING WING WING WING WING\r\n");
-          printf("WING WING WING WING WING WING WING\r\n");
-          printf("WING WING WING WING WING WING WING\r\n");
-          lastGesture = 0;
-          vTaskDelay(1000 / portTICK_PERIOD_MS);
-          break;
-      case 1:
-          printf("RING RING RING RING RING RING RING\r\n");
-          printf("RING RING RING RING RING RING RING\r\n");
-          printf("RING RING RING RING RING RING RING\r\n");
-          
-          lastGesture = 1;
-          vTaskDelay(1000 / portTICK_PERIOD_MS);
-          break;
-      case 2:
-          printf("SLOPE SLOPE SLOPE SLOPE SLOPE SLOPE\r\n");
-          printf("SLOPE SLOPE SLOPE SLOPE SLOPE SLOPE\r\n");
-          printf("SLOPE SLOPE SLOPE SLOPE SLOPE SLOPE\r\n");
-          lastGesture = 2;
-          vTaskDelay(1000 / portTICK_PERIOD_MS);
-          break;
-      case 3:
-          printf("UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN\r\n");
-          //lastGesture = 3;
-          break;
-      default:
-          break;   
-  }
- 
-  //HandleOutput(error_reporter, gesture_index);
+  handleOutput(gesture_index);
+  
 }

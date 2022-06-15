@@ -20,8 +20,6 @@ uint16_t buffer_Index = 0;
 
 int count = 0;
 
-
-
 TfLiteStatus SetupAccelerometer(tflite::ErrorReporter* error_reporter){
     lis3dh.begin();
     lis3dh.set_Range(LIS3DH_RANGE_4_G);
@@ -31,7 +29,6 @@ TfLiteStatus SetupAccelerometer(tflite::ErrorReporter* error_reporter){
         error_reporter->Report("No accelerometer detected");
         return kTfLiteError;
     }
-
 
   // Determine how many measurements to keep in order to meet kTargetHz.
     //For sample rate = 25 and kTargetHz = 25, sample_every_n = 1
@@ -102,8 +99,6 @@ bool GetData(tflite::ErrorReporter* error_reporter, float* input, int length, bo
         }
         
         input[i] = save_data[ring_array_index];
-        //printf("%d\r\n", (int)input[i]);
-
       }
     return true;
 }

@@ -150,6 +150,7 @@ build/ATSAMD51J19A/production/_ext/1443613292/TF_Functions.o: \
  ../src/config/ATSAMD51J19A/system/cache/sys_cache.h \
  ../src/config/ATSAMD51J19A/osal/osal.h \
  ../src/config/ATSAMD51J19A/system/debug/sys_debug.h ../src/app.h \
+ ../src/Gesture_predictor/Output_handler.hpp \
  ../src/Gesture_predictor/TF_Functions.hpp \
  ../src/Tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h \
  ../src/Tensorflow/tensorflow/lite/c/common.h \
@@ -511,6 +512,8 @@ build/ATSAMD51J19A/production/_ext/1443613292/TF_Functions.o: \
 ../src/config/ATSAMD51J19A/system/debug/sys_debug.h:
 
 ../src/app.h:
+
+../src/Gesture_predictor/Output_handler.hpp:
 
 ../src/Gesture_predictor/TF_Functions.hpp:
 

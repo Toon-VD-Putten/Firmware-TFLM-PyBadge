@@ -1,2 +1,0 @@
-build/ATSAMD51J19A/production/_ext/1360937237/GESTURETEST.o: \
- ../src/GESTURETEST.cpp
