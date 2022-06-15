@@ -12,13 +12,10 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/Gesture_predictor/Accel_Handler.cpp</file>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/Gesture_predictor/TF_Functions.cpp</file>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/app.cpp</file>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/Gesture_predictor/Accel_Functions.hpp</file>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/GESTURETEST.hpp</file>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/Gesture_predictor/Accel_Functions.cpp</file>
-            <file>file:/C:/Users/Toon/HarmonyProjects/firmware/src/Gesture_predictor/Gesture_predictor.cpp</file>
+            <file>file:/C:/Users/Toon/Documents/GitHub/Firmware-TFLM-PyBadge/firmware/src/magic_wand.h</file>
+            <file>file:/C:/Users/Toon/Documents/GitHub/Firmware-TFLM-PyBadge/firmware/src/Gesture_predictor/Output_handler.cpp</file>
+            <file>file:/C:/Users/Toon/Documents/GitHub/Firmware-TFLM-PyBadge/firmware/src/Gesture_predictor/TF_Functions.cpp</file>
+            <file>file:/C:/Users/Toon/Documents/GitHub/Firmware-TFLM-PyBadge/firmware/src/Gesture_predictor/Output_handler.hpp</file>
         </group>
     </open-files>
 </project-private>
