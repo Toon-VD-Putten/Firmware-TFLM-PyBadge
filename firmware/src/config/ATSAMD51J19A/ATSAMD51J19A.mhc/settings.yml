@@ -1,0 +1,14 @@
+configName: ATSAMD51J19A
+folderName: embedML
+format_version: v1.0
+frameworkPath: ..\..\Harmony3
+processor: ATSAMD51J19A
+projectName: embedML
+settings:
+  PackageFilter: audio;bootloader;bootloader_apps_i2c;bootloader_apps_uart;bsp;core;core_apps_sam_d5x_e5x;crypto;csp;csp_apps_sam_d5x_e5x;dev_packs;gfx;gfx_apps_sam_d5x_e5x;harmony-services;mbed_os_rtos;mbed_os_rtos_apps;net;quick_docs;tflite-micro-apps;touch;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMD51_DFP\3.5.95\samd51a\atdf\ATSAMD51J19A.atdf

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/ATSAMD51J19A/production/embedML.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>524288</length>
+      <used>125671</used>
+      <free>398617</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>196608</length>
+      <used>126270</used>
+      <free>70338</free>
+    </memory>
+  </executable>
+</project>
